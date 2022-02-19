@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container_12{
+    width: 1520px;
+    margin: 0 auto;
+    min-height: 3000px;
+    
+}
+/* ĐẦU TRANG: LOGO, TÌM KIẾM,ACCOUNT, GIOHANG */
+header{
+    width: 100%;
+    height: 65px;
+    background-color: Linen ;
+}
+.logo{
+    width: 9%;
+    height: 65px;
+    float: left;
+   
+}
+.logo img{
+    width: 110%;
+    margin-left: -10px;
+}
+.header{
+    width: 50%;
+    height: 65px;
+    float: left;
+    margin-left: 10%;
+}
+.header .header-search{
+    flex: 4;
+    display: flex;
+    margin-left: 0px;
+    width: 100%;
+    
+}
+
+.header-pn-search{
+    font-size: 20px;
+    color: rgb(68, 50, 50);
+    position: relative;
+    right: 80px;
+    top: 18px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header .header-pn-search:hover{
+    opacity: 0.8;
+}
+
+
+.header .header-search-ptn{
+    width:100%;
+    height: 30px;
+    text-align: left;
+    margin:18px 38px;
+    font-size: 14px;
+    padding: 8px 18px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.05);  
+}
+.account{
+    width: 11%;
+    height: 65px;
+    
+    float: left;
+    margin-left: 190px;
+    position: relative;
+}
+.account i{
+    
+    font-size: 45px;
+    color: black;
+    left: 60px;
+    
+    position: relative;
+    
+    
+}
+.link>a:hover{
+    color: gray;
+}
+.link>a{
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    
+    
+}
+
+.giohang{
+    width: 6%;
+    height: 65px;
+   
+    float: right;
+    margin-right: 5px;
+    position: relative;
+}
+.giohang i{
+    font-size: 45px;
+    color: black;
+    right: -22px;
+    top: 0px;
+    position: relative;
+}
+.giohang .cart>a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    
+}
+.cart>a:hover{
+    color: gray;
+}
+/* KẾT THÚC ĐẦU TRANG */
+/* MENU */
+nav{
+    width: 100%;
+    float: left;
+    height: 356px;
+    
+}
+.hmenu{
+    list-style: none;
+    text-align: center;
+}
+.hmenu>li{
+    display: inline-block;
+    margin: 0 60px;
+    position: relative;
+}
+.hmenu>li>a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #EEE;
+    display: block;
+    padding:10px 5px;
+}
+.hmenu>li>a:hover{
+    color: rgb(241, 195, 148);
+    font-weight: bold;
+}
+.hmenu>li:hover .smenu{
+    display: block;
+}
+.smenu{
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left : -20px;
+    width: 200px;
+    background-color: white;
+    padding: 10px 20px;
+    display: none;
+    z-index: 10;
+}
+.smenu>li{
+    display: block;
+
+    border-bottom: 1px solid rgb(129, 122, 122);
+}
+.smenu>li>a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.2em;
+    padding: 10px 0 10px;
+    display: block;
+}
+.hmenu .smenu>li:hover{
+    background-color: rgb(230, 152, 144);
+}
+/* KẾT THÚC MENU */
+.banner{
+    widows: 100%;
+    height: auto;
+    z-index: 0;
+    margin-top: -42px;
+}
+.banner>img{
+   width: 100%;
+}
+
+/* Sách BÁN giảm giá */
+.phan1{
+    width: 100%;
+    height: 500px;
+    margin-top: 370px;
+}
+.product{
+    width: 100%;
+    height: 50px;
+
+    margin-top: -1px;
+}
+.product .heading{
+    font-size: 27px;
+    color:gray;
+    margin: 40px 0;
+    height: 40px;
+    margin-top: 360px;
+    position:relative;
+    left: 650px;
+}
+.product .heading:after{
+    content:"";
+    position:absolute;
+    width: 100px;
+    height: 3px;
+    background-color: gray;
+    top: 33px;
+    left: 40px;
+}
+.product .next{
+    
+    margin: 40px 0;
+    height: 25px;
+    margin-top: -40px;
+    position:relative;
+}
+.next a{
+    margin-left:1410px;
+    color:black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.next>a:hover{
+    color: gray;
+}
+
+
+.sanpham{
+    width: 252px;
+    float: left;
+    margin: 30px;
+    height: 425px;
+    margin-right: 20px;
+}
+.sanpham:hover{
+    box-shadow: 0 0 10px #C9CCD5;
+}
+.img a{
+    text-decoration: none;
+    color:#333333;
+    width: 20%;
+    text-align: center;
+    font-size:18px;
+}
+.img a:hover{
+    color:rgb(230, 200, 196);
+}
+.img img{
+    width: 100%;
+    height: 380px;
+    
+}
+.giam-gia{
+    text-align: center;
+    color: rgb(201, 13, 13);
+    font-size: large;
+    font-weight: bolder;
+}
+.giam-gia del{
+    color: gray;
+}
+
+/* KẾT THÚC sách giảm giá */
+/* Sách bán chạy */
+.phan2{
+    width: 100%;
+    height: 500px;
+    margin-top: -300px;
+}
+
+/* kết thúc sách bán chạy */
+/* SÁCH MỚI */
+.phan3{
+    width: 100%;
+    height: 500px;
+    margin-top: -300px;
+}
+.moi-nhat{
+    background-color: #FAF0E6;
+    width: 100%;
+    height: 450px;
+    margin-top: 450px;
+}
+.anh{
+    width:  520px;
+    height: 447px;
+}
+.noidung{
+    width:  1000px;
+    height: 447px;
+    margin-left: 520px;
+    margin-top: -447px;
+}
+.noidung>a{
+    width:  550px;
+    height: 30px;
+    margin-left: 50px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.noidung p{
+    width:  890px;
+    height: 190px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    color:#444444;
+}
+.next1{
+    width: 300px;
+    margin: 40px 0;
+    height: 25px;
+    margin-top: -50px;
+    position:relative;
+    margin-left:50px;
+    color:rgb(206, 67, 67);
+}
+.next1 a{
+    margin-left:4px;
+    color:rgb(86, 75, 75);
+    font-size: 20px;
+    text-decoration: none;
+}
+.next1>a:hover{
+    color: gray;
+}
+.anh img{
+   width: 58%;
+   margin-left: 120px;
+}
+.next3{
+    
+    margin: 40px 0;
+    height: 25px;
+    margin-top: 55px;
+    position:relative;
+}
+.next3 a{
+    margin-left:1410px;
+    color:black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.next3>a:hover{
+    color: gray;
+}
+/* KẾT THÚC SÁCH MỚI */
+/*footer*/
+footer{
+    width: 100%;
+    float: left;
+    height: 220px;
+    
+}
+.phanmot{
+    width: 100%;
+    height: 180px;
+    background-color: #BBBBBB;
+}
+.phanhai{
+    width: 100%;
+    height: 40px;
+    background-color: #444444;
+    position: relative;
+}
+.help{
+    font-family: Montserrat-SemiBoil;
+    font-size: 12.5pt;
+    padding-top: 20px;
+    width: 25%;
+    float: left;
+    margin-left: 200px;
+}
+.help a{
+    text-decoration: none;
+    color: black;
+}
+.help a:hover{
+    text-decoration: underline;
+}
+.help>ul{
+    float: left;
+    list-style: none;
+    font-family: Montserrat-Regular;
+    font-size: 12pt;
+    padding: 20px;
+}
+.help>ul>li{
+    padding: 4px;
+    margin-left: -23px;
+}
+.call{
+    font-family: Montserrat-SemiBoil;
+    font-size: 12.5pt;
+    padding-top: 20px;
+    width: 25%;
+    float: left;
+    margin-left: -10px;
+}
+.call a{
+    text-decoration: none;
+    color: black;
+}
+.call a:hover{
+    text-decoration: underline;
+}
+.call>ul{
+    float: left;
+    list-style: none;
+    font-family: Montserrat-Regular;
+    font-size: 12pt;
+    padding: 20px;
+}
+.call>ul>li{
+    padding: 4px;
+    margin-left: -23px;
+}
+
+.logo_call a:hover{
+    color: rgb(197, 0, 35);
+}
+.payment{
+    font-family: Montserrat-SemiBoil;
+    font-size: 12.5pt;
+    padding-top: 20px;
+    width: 15%;
+    float: left;
+    margin-left: -100px;
+}
+.pay{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 50px;
+    padding: 20px;
+}
+.pay img{
+    width: 40px;
+}
+.lehen {
+    padding-top: 30px;
+    width: 20%;
+    float: right;
+    margin-right: 10px; 
+}
+.lehen img{
+    width: 120px;
+}
+.left{
+    color: white;
+    font-family: Montserrat-Medium;
+    font-size: 13pt;
+    float: left;
+    padding-top: 10px;
+    margin-left:-200px;
+}
+
+.left>a{
+    margin-left: 300px;
+    text-decoration: none;
+    color: white;
+}
+
+.left>a:hover{
+    color: black;
+}
+
+.right{
+    float: right;
+    margin-top: 10px;
+    font-size: 13pt;
+}
+.right>a{
+    margin: 0 40px;
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat-Regular;
+    list-style: none;
+}
+.right>a:hover{
+    color: black;
+}
+/* footer */

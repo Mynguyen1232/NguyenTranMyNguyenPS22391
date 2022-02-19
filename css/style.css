@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.hhome{
+    width: 100%;
+    height: 70px;
+    background-color: Linen ;
+}
+.hhome .logo{
+    width: 150px;
+    float: left;
+    right: 100px;
+    background-color: #C9CCD5;
+    
+}
+.hhome .logo img{
+    width: 150px;
+}
+
+
+#header .header-search{
+    flex: 4;
+    display: flex;
+    background-color: aquamarine;
+    margin-left: 10px;
+    top: 10px;
+    width: 50%;
+    
+}
+
+.header-pn-search{
+    font-size: 20px;
+    color: rgb(68, 50, 50);
+    position: relative;
+    right: 80px;
+    top: 11px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#header .header-pn-search:hover{
+    opacity: 0.8;
+}
+
+
+#header .header-search-ptn{
+    width:100%;
+    height: 30px;
+    text-align: left;
+    margin:10px 30px;
+    font-size: 14px;
+    padding: 6px 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.05);
+    
+    
+}
+/* lựa chọn */
+nav{
+    width: 100%;
+    float: left;
+    height: 40px;
+    background-color: dimgray;
+}
+.hmenu{
+    list-style: none;
+    text-align: center;
+}
+.hmenu>li{
+    display: inline-block;
+    margin: 0 60px;
+    position: relative;
+}
+.hmenu>li>a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #EEE;
+    display: block;
+    padding:10px 5px;
+}
+.hmenu>li>a:hover{
+    color: rgb(241, 195, 148);
+    font-weight: bold;
+}
+.hmenu>li:hover .smenu{
+    display: block;
+}
+.smenu{
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left : -20px;
+    width: 200px;
+    background-color: white;
+    padding: 10px 20px;
+    display: none;
+    z-index: 10;
+}
+.smenu>li{
+    display: block;
+
+    border-bottom: 1px solid rgb(129, 122, 122);
+}
+.smenu>li>a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.2em;
+    padding: 10px 0 10px;
+    display: block;
+}
+.hmenu .smenu>li:hover{
+    background-color: rgb(230, 152, 144);
+}
+/* lựa chọn */
+.banner{
+    widows: 100%;
+    height: auto;
+    z-index: 0;
+}
+.banner>img{
+   width: 100%;
+}
+article{
+    width: 100%;
+    float: left;
+    min-height: 3000px;
+}
+.product .heading{
+    font-size: 28px;
+    color:#777777;
+    text-align: center;
+    margin: 40px 0;
+    position:relative;
+}
+.product .heading:after{
+    content:"";
+    position:absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #BBBBBB;
+    top: 35px;
+    left: 700px;
+}
+.product .list-product .product-item{
+    width: 22%;
+    margin: 20px 20px;
+    display: inline-block;
+    text-align: center;
+    
+}
+.product-item:hover{
+    box-shadow: 0 0 10px #C9CCD5;
+}
+.product .list-product .product-item a{
+    text-decoration: none;
+    color:#333333;
+    width: 20%;
+}
+.product .list-product .product-item a:hover{
+    color:rgb(230, 152, 144);
+}
+.product .list-product .product-item img{
+    max-width: 100%;
+}
+.price{
+    text-align: center;
+    color: rgb(201, 13, 13);
+    font-size: large;
+    font-weight: bolder;
+}
+.price del{
+    color: gray;
+}
+
+
+
+
+
+/*footer*/
+footer{
+    width: 100%;
+    float: left;
+    height: 220px;
+    
+}
+.phan1{
+    width: 100%;
+    height: 180px;
+    background-color: #BBBBBB;
+}
+.phan2{
+    width: 100%;
+    height: 40px;
+    background-color: #444444;
+    position: relative;
+}
+.help{
+    font-family: Montserrat-SemiBoil;
+    font-size: 12.5pt;
+    padding-top: 20px;
+    width: 25%;
+    float: left;
+    margin-left: 200px;
+}
+.help a{
+    text-decoration: none;
+    color: black;
+}
+.help a:hover{
+    text-decoration: underline;
+}
+.help>ul{
+    float: left;
+    list-style: none;
+    font-family: Montserrat-Regular;
+    font-size: 12pt;
+    padding: 20px;
+}
+.help>ul>li{
+    padding: 4px;
+    margin-left: -23px;
+}
+.call{
+    font-family: Montserrat-SemiBoil;
+    font-size: 12.5pt;
+    padding-top: 20px;
+    width: 25%;
+    float: left;
+    margin-left: -10px;
+}
+.call a{
+    text-decoration: none;
+    color: black;
+}
+.call a:hover{
+    text-decoration: underline;
+}
+.call>ul{
+    float: left;
+    list-style: none;
+    font-family: Montserrat-Regular;
+    font-size: 12pt;
+    padding: 20px;
+}
+.call>ul>li{
+    padding: 4px;
+    margin-left: -23px;
+}
+
+.logo_call a:hover{
+    color: rgb(197, 0, 35);
+}
+.payment{
+    font-family: Montserrat-SemiBoil;
+    font-size: 12.5pt;
+    padding-top: 20px;
+    width: 15%;
+    float: left;
+    margin-left: -100px;
+}
+.pay{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 50px;
+    padding: 20px;
+}
+.pay img{
+    width: 40px;
+}
+.lehen {
+    padding-top: 30px;
+    width: 20%;
+    float: right;
+    margin-right: 10px; 
+}
+.lehen img{
+    width: 120px;
+}
+.left{
+    color: white;
+    font-family: Montserrat-Medium;
+    font-size: 13pt;
+    float: left;
+    padding-top: 10px;
+}
+
+.left>a{
+    margin-left: 300px;
+    text-decoration: none;
+    color: white;
+}
+
+.left>a:hover{
+    color: black;
+}
+
+.right{
+    float: right;
+    margin-top: 10px;
+    font-size: 13pt;
+}
+.right>a{
+    margin: 0 40px;
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat-Regular;
+    list-style: none;
+}
+.right>a:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+

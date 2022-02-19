@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container_12{
+    width: 1520px;
+    margin: 0 auto;
+    min-height: 3000px;
+    
+}
+header{
+    width: 100%;
+    height: 75px;
+    background-color: Linen ;
+}
+.logo{
+    width: 9%;
+    height: 65px;
+    float: left;
+   
+}
+.logo img{
+    width: 110%;
+    margin-left: -10px;
+}
+.header{
+    width: 50%;
+    height: 65px;
+    float: left;
+    margin-left: 10%;
+}
+.header .header-search{
+    flex: 4;
+    display: flex;
+    margin-left: 0px;
+    width: 100%;
+    
+}
+
+.header-pn-search{
+    font-size: 20px;
+    color: rgb(68, 50, 50);
+    position: relative;
+    right: 80px;
+    top: 18px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header .header-pn-search:hover{
+    opacity: 0.8;
+}
+
+.header .header-search-ptn{
+    width:100%;
+    height: 30px;
+    text-align: left;
+    margin:18px 38px;
+    font-size: 14px;
+    padding: 8px 18px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.05);  
+}
+.account{
+    width: 11%;
+    height: 65px;
+    
+    float: left;
+    margin-left: 190px;
+    position: relative;
+}
+.account i{
+    
+    font-size: 45px;
+    color: black;
+    left: 60px;
+    
+    position: relative;
+    
+    
+}
+.link>a:hover{
+    color: gray;
+}
+.link>a{
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;   
+}
+
+.giohang{
+    width: 6%;
+    height: 65px;
+   
+    float: right;
+    margin-right: 5px;
+    position: relative;
+}
+.giohang i{
+    font-size: 45px;
+    color: black;
+    right: -22px;
+    top: 0px;
+    position: relative;
+}
+.giohang .cart>a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    
+}
+.cart>a:hover{
+    color: gray;
+}
+nav{
+    width: 100%;
+    float: left;
+    height: 40px;
+    margin-top:70px;
+    background-color: dimgray;
+    margin-top: 1px;
+}
+.hmenu{
+    list-style: none;
+    text-align: center;
+    
+}
+.hmenu>li{
+    display: inline-block;
+    margin: 0 60px;
+    position: relative;
+}
+.hmenu>li>a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #EEE;
+    display: block;
+    padding:10px 5px;
+}
+.hmenu>li>a:hover{
+    color: rgb(241, 195, 148);
+    font-weight: bold;
+}
+.hmenu>li:hover .smenu{
+    display: block;
+}
+.smenu{
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left : -20px;
+    width: 200px;
+    background-color: white;
+    padding: 10px 20px;
+    display: none;
+    z-index: 10;
+}
+.smenu>li{
+    display: block;
+
+    border-bottom: 1px solid rgb(129, 122, 122);
+}
+.smenu>li>a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.2em;
+    padding: 10px 0 10px;
+    display: block;
+}
+.hmenu .smenu>li:hover{
+    background-color: rgb(230, 152, 144);
+}
+/* account */
